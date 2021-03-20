@@ -1,0 +1,111 @@
+body{
+    color: #444;
+    margin: 0;
+    padding: 0;
+    line-height: 150%;
+}
+ 
+header{
+
+    width: 100%;
+    height: 270px;
+    margin: 0 auto;
+    position: relative;
+}
+
+.head-title{
+    padding: 20px;
+    width: 300px;
+    line-height: 210px;
+    margin-left: 40px;
+    letter-spacing: 5px;
+    float: left;
+    font-family: 'Anton', sans-serif;
+
+}
+
+header ul{
+    float: right;
+    position: absolute;
+    bottom: 0;
+    right: 50px;
+}
+
+header ul li{
+    float: left;
+    list-style: none;
+    padding: 10px;
+    margin-right: 15px;
+    letter-spacing: 2px;
+}
+
+header ul li a{
+    text-decoration: none;
+    color: #444;
+}
+
+.site-width{
+    width: 100%;
+    overflow: hidden;
+}
+.main-pic{
+
+    width: 100%;
+    height: 420px;
+    background: #f0eee9;
+}
+
+
+
+.profile{
+    width: 920px;
+    height: 540px;
+    margin: 0 auto;
+    transform:translateX(-50px);
+    opacity:0;  
+    transition:opacity 1s,transform 0.5s;
+}
+
+.my-img{
+    width: 300px;
+    height: 80%;
+    background: #444;
+}
+
+.works{
+    width: 920px;
+    height: 540px;
+    margin: 0 auto;
+    transform:translateX(50px);
+    opacity:0;  
+    transition:opacity 1s,transform 0.5s; 
+}
+
+.skill{
+    display: flex;
+    justify-content: space-between;
+}
+
+.direction,.coding,.desine{
+    margin-top: 20px;
+    width: 30%;
+    height: 400px;
+    background: #00a0b0;
+}
+
+
+/* 条件を満たしたあとに追加するクラス */
+.fadein{
+  opacity: 1;
+  transform:translateX(0); 
+}
+.profile-title,.works-title{
+    width: 100%;
+    text-align: center;
+    font-family: 'Anton', sans-serif;
+    font-family: 'Oxygen', sans-serif;
+    font-size: 32px;
+    letter-spacing: 3px;
+    margin: auto;
+
+}
